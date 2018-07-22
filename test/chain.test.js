@@ -27,7 +27,7 @@ describe('Chain', () => {
         expect(chain.isValid()).toBe(true);
     });
 
-    it('replaces the chain with valid chain', () => {
+    it('replaces the chain with the valid chain', () => {
         let chain2 = new Chain();
         chain2.addBlock("dummy");
         chain2.addBlock("dummy2");

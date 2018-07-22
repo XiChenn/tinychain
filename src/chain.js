@@ -29,6 +29,7 @@ class Chain {
             if (block.hashPrev !== blockPrev.hash ||
                 block.hashPrev !== Block.calculateBlockHash(blockPrev) ||
                 block.hash !== Block.calculateBlockHash(block)) {
+
                 return false;
             }
         }
